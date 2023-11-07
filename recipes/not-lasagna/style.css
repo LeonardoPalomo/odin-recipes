@@ -2,6 +2,11 @@ body {
     background-color: orange;
 }
 
+.recipe {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -9,4 +14,13 @@ body {
 
 h1 {
     text-align: center;
+    margin-top: 0;
+}
+
+button {
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 30px;
+    padding: 5px 20px;
 }
